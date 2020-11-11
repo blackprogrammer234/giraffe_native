@@ -1,0 +1,6 @@
+package com.bounds.giraffenative
+
+import io.flutter.embedding.android.FlutterActivity
+
+class MainActivity: FlutterActivity() {
+}
