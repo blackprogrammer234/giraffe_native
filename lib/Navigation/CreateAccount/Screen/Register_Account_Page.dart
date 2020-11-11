@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:giraffenative/CommonComponents/Rounded_Input_field.dart';
+import 'package:giraffenative/Navigation/CreateAccount/Components/sign_up_button.dart';
 
 class RegisterAccountPage extends StatefulWidget {
   @override
@@ -24,7 +25,8 @@ class _RegisterAccountPage extends State<RegisterAccountPage> {
               children: <Widget>[
                 RoundedInputField(hintText: "username", onChanged: (value) {}),
                 RoundedInputField(hintText: "password", onChanged: (value) {}),
-                RoundedInputField(hintText: "confirm password", onChanged: (value) {})
+                RoundedInputField(hintText: "confirm password", onChanged: (value) {}),
+                SignUpButton()
               ],
             )
         ));
